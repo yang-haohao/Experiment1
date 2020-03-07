@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_3">
+
+    <ImageView
+        android:id="@+id/View01"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pic5"
+        android:visibility="invisible"
+        ></ImageView>
+
+    <ImageView
+        android:id="@+id/View02"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:src="@drawable/pic4"
+        android:visibility="invisible"></ImageView>
+
+    <ImageView
+        android:id="@+id/View03"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:src="@drawable/pic3"
+        android:visibility="invisible"></ImageView>
+
+    <ImageView
+        android:id="@+id/View04"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher"
+        android:visibility="invisible"></ImageView>
+
+    <ImageView
+        android:id="@+id/View05"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:src="@drawable/pic2"
+        android:visibility="invisible"
+        ></ImageView>
+
+    <Button
+        android:id="@+id/btn3_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        android:layout_marginTop="580dp"
+        ></Button>
+</FrameLayout>

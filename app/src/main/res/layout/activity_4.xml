@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity_4">
+
+    <TableLayout
+        android:id="@+id/TableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:stretchColumns="0,1">
+        <TableRow>
+            <Button
+                android:id="@+id/btn4_1"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="第一个Button"
+                ></Button>
+
+            <Button
+                android:id="@+id/btn4_2"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="第二Button"
+                ></Button>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/TableLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1,2"
+        android:collapseColumns="1,2">
+
+        <Button
+            android:id="@+id/btn4_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="第三个Button"
+            ></Button>
+
+        <TableRow>
+            <Button
+                android:id="@+id/btn4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="第四个Button"
+                ></Button>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                >
+            </Button>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                >
+            </Button>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn4_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="返回"
+        ></Button>
+
+</LinearLayout>
